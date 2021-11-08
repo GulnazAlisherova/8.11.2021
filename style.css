@@ -1,0 +1,29 @@
+/* utility classes for aligning text*/
+
+.text-justify {
+  text-align: justify;
+}
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+
+
+.align-center {
+float: inline-start;
+}
+.align-left {
+float: left;
+}
+.align-right {
+  float: right;
+}
+
+body{
+  font-weight: 800;
+}
