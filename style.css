@@ -14,9 +14,7 @@
 }
 
 
-.align-center {
-float: left ;
-}
+
 .align-left {
 float: left;
 }
@@ -29,4 +27,33 @@ img {
 }
 body{
   font-weight: 800;
+  margin: 0;
+}
+
+
+.navbar {
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+.navbar ul {
+  display: flex;
+ list-style-type: none;
+margin: 0;
+padding: 0;
+justify-content: center;
+}
+.navbar a {
+  display: inline-block;
+color: black;
+text-decoration: none;
+padding: 15px 20px 10px;
+border-bottom: 5px  solid transparent;
+
+}
+.navbar a:hover {
+  background-color: rgb(153, 149, 153);
+  border-color: black;
+}
+.navbar-sticky {
+  position: sticky;
 }
