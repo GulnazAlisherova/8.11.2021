@@ -15,7 +15,7 @@
 
 
 .align-center {
-float: inline-start;
+float: left ;
 }
 .align-left {
 float: left;
@@ -23,7 +23,10 @@ float: left;
 .align-right {
   float: right;
 }
-
+img {
+  border: 1px solid black;
+  margin: 5px 5px;
+}
 body{
   font-weight: 800;
 }
